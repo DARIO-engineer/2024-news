@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMPAR Notícias</title>
+    <link rel="icon" href="/Imagem/Loo-removebg-preview (1).png" type="image/png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/Página-inicial/css/principal.css">
+    <link rel="stylesheet" href="/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- Menu / Cabeçalho -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top nav-underline" id="barra_navbar">
+        <div class="container">
+            <img width="10%" height="5%" src="/Imagem/Loo-removebg-preview (1).png" alt="">
+            <button class="navbar-toggler bg-white m" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center nav-fill nav-underline"
+                id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a id="Home" class="nav-link link-dark" href="/index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-dark active" href="/Actividades/html/noticia.html">NOTÍCIAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-dark" href="/Galeria/html/Galeria.html">GALERIA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-dark" href="/Sobre-impar/html/sobre-impar.html">SOBRE O IMPAR</a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link link-dark dropdown-toggle" data-bs-toggle="dropdown" href="">CURSOS</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Sobre-impar/html/enfernagem.html" class="dropdown-item link-dark">ENFERMAGEM</a>
+                            </li>
+                            <li><a href="/Sobre-impar/html/analise_clinica.html"
+                                    class="dropdown-item link-dark">ANÁLISES CLÍNICAS</a></li>
+                            <li><a href="/Sobre-impar/html/farmancia.html" class="dropdown-item link-dark">FARMÁNCIA</a>
+                            </li>
+                            <li><a href="/Sobre-impar/html/informatica.html" class="dropdown-item link-dark">INFORMÁTICA</a>
+                            </li>
+                            <li><a href="/Sobre-impar/html/electricidade.html"
+                                    class="dropdown-item link-dark">ELETRICIDADE</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/Admissão/html/Adimissao.html"><button type="submit"
+                                class="btn btn-primary btn-adm"> ADIMISSÃO</button></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <div class="d-flex mx-lg-4 ms-lg-4">
+                            <label for="portal"><img src="/Icons/user.png" width="30px" height="30px" alt=""></label>
+                            <a class="nav-link link-dark d-flex align-items-center"
+                                href="/LOgin/html/login_aluno.html" target="_blank"> PORTAL<span>&nbsp;IMPAR</a></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="p-5 disabled"></div>
+
+
+<h3 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Actividades</h3>
+    <!-- Cards Actividades -->
+        <div class="container-fluid mt-2">
+          <div class="row">
+              <div class="col">
+                  <div class="row justify-content-around row-cols-1 row-cols-md-2 row-cols-lg-4">
+                      <!-- Card 1 - Informática -->
+                      <div class="col list-group">
+                          <a href="#" class="list-group-item list-group-item-action">
+                              <div class="d-flex w-100 justify-content-between">
+                                  <h5 class="mb-1">Título</h5>
+                                  <small>5 dias</small>
+                              </div>
+                              <img src="/Imagem/galeria/Nossos eventos/Debate.png" class="img-fluid img-thumbnail" alt=""
+                                  data-toggle="modal" data-target="#imagemModal1">
+                              <div class="card-body">
+                              </div>
+                          </a>
+                      </div>
+                      <!-- Card 2 - Enfermagem -->
+                      <div class="col list-group">
+                          <a href="#" class="list-group-item list-group-item-action">
+                              <div class="d-flex w-100 justify-content-between">
+                                  <h5 class="mb-1">Título</h5>
+                                  <small>5 dias</small>
+                              </div>
+                              <img src="/Imagem/galeria/Nossos eventos/Dia do farma.jpg" class="img-fluid img-thumbnail" alt=""
+                                  data-toggle="modal" data-target="#imagemModal2">
+                              <div class="card-body">
+                              </div>
+                          </a>
+                      </div>
+                      <!-- Card 3 - Elétrica -->
+                      <div class="col list-group">
+                          <a href="#" class="list-group-item list-group-item-action">
+                              <div class="d-flex w-100 justify-content-between">
+                                  <h5 class="mb-1">Título</h5>
+                                  <small>5 dias</small>
+                              </div>
+                              <img src="/Imagem/galeria/Nossos eventos/Activity (1).jpg" class="img-fluid img-thumbnail" alt=""
+                                  data-toggle="modal" data-target="#imagemModal3">
+                              <div class="card-body">
+                              </div>
+                          </a>
+                      </div>
+                      <!-- Card 4 - Farmácia -->
+                      <div class="col list-group">
+                          <a href="#" class="list-group-item list-group-item-action">
+                              <div class="d-flex w-100 justify-content-between">
+                                  <h5 class="mb-1">Título</h5>
+                                  <small>5 dias</small>
+                              </div>
+                              <img src="/Imagem/galeria/Nossos eventos/Activity (2).jpg" class="img-fluid img-thumbnail" alt=""
+                                  data-toggle="modal" data-target="#imagemModal4">
+                              <div class="card-body">
+                              </div>
+                          </a>
+                      </div>
+                      <div class="col list-group">
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Título</h5>
+                                <small>5 dias</small>
+                            </div>
+                            <img src="/Imagem/galeria/Nossos eventos/Africa-day.jpg" class="img-fluid img-thumbnail" alt=""
+                                data-toggle="modal" data-target="#imagemModal5">
+                            <div class="card-body">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col list-group">
+                      <a href="#" class="list-group-item list-group-item-action">
+                          <div class="d-flex w-100 justify-content-between">
+                              <h5 class="mb-1">Título</h5>
+                              <small>5 dias</small>
+                          </div>
+                          <img src="/Imagem/galeria/Nossos eventos/Dia do farma.jpg" class="img-fluid img-thumbnail" alt=""
+                              data-toggle="modal" data-target="#imagemModal6">
+                          <div class="card-body">
+                          </div>
+                      </a>
+                  </div>
+                  <div class="col list-group">
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Título</h5>
+                            <small>5 dias</small>
+                        </div>
+                        <img src="/Imagem/galeria/Nossos eventos/Palestra.jpg" class="img-fluid img-thumbnail" alt=""
+                            data-toggle="modal" data-target="#imagemModal7">
+                        <div class="card-body">
+                        </div>
+                    </a>
+                </div>
+                <div class="col list-group">
+                  <a href="#" class="list-group-item list-group-item-action">
+                      <div class="d-flex w-100 justify-content-between">
+                          <h5 class="mb-1">Título</h5>
+                          <small>5 dias</small>
+                      </div>
+                      <img src="/Imagem/galeria/Nossos eventos/1.png" class="img-fluid img-thumbnail" alt=""
+                          data-toggle="modal" data-target="#imagemModal8">
+                      <div class="card-body">
+                      </div>
+                  </a>
+              </div>
+              <div class="col list-group">
+                <a href="#" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Título</h5>
+                        <small>5 dias</small>
+                    </div>
+                    <img src="https://via.placeholder.com/300" class="img-fluid img-thumbnail" alt=""
+                        data-toggle="modal" data-target="#imagemModal9">
+                    <div class="card-body">
+                    </div>
+                </a>
+            </div>
+            <div class="col list-group">
+              <a href="#" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">Título</h5>
+                      <small>5 dias</small>
+                  </div>
+                  <img src="https://via.placeholder.com/300" class="img-fluid img-thumbnail" alt=""
+                      data-toggle="modal" data-target="#imagemModal10">
+                  <div class="card-body">
+                  </div>
+              </a>
+          </div>
+          <div class="col list-group">
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Título</h5>
+                    <small>5 dias</small>
+                </div>
+                <img src="https://via.placeholder.com/300" class="img-fluid img-thumbnail" alt=""
+                    data-toggle="modal" data-target="#imagemModal11">
+                <div class="card-body">
+                </div>
+            </a>
+        </div>
+        <div class="col list-group">
+          <a href="#" class="list-group-item list-group-item-action">
+              <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">Título</h5>
+                  <small>5 dias</small>
+              </div>
+              <img src="https://via.placeholder.com/300" class="img-fluid img-thumbnail" alt=""
+                  data-toggle="modal" data-target="#imagemModal12">
+              <div class="card-body">
+              </div>
+          </a>
+          </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+
+
+  <!-- Modals de Visualização das Imagens -->
+  <div class="modal fade" id="imagemModal1" tabindex="-1" role="dialog" aria-labelledby="imagemModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="imagemModalLabel">Visualização de Imagem</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+              </div>
+              <div class="modal-body">
+                  <img src="/Imagem/galeria/Nossos eventos/Debate.png" class="img-fluid" alt="">
+                  <h5>Marcus é um eletrcista famoso por seu grande e maravilhoso trabalho no ramo da eletrecidade ele leva tudo da forma certa a se fazer , Marcus serviu como incentivação para diversos jovens a virem trabalhar na Industria Mark_Luther</h5>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="modal fade" id="imagemModal2" tabindex="-1" role="dialog" aria-labelledby="imagemModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="imagemModalLabel">Visualização de Imagem</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="/Imagem/galeria/Nossos eventos/Dia do farma.jpg" class="img-fluid" alt="">
+              <h5>Bem-Vindo ao Facebook a maior rede social do mundo criada por Mark Zuckerberg</h5>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="modal fade" id="imagemModal3" tabindex="-1" role="dialog" aria-labelledby="imagemModalLabel"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="imagemModalLabel">Visualização de Imagem</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <img src="/Imagem/galeria/Nossos eventos/Activity (1).jpg" class="img-fluid" alt="">
+            <h5>Bem-Vindo ao Facebook a maior rede social do mundo criada por Mark Zuckerberg</h5>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="imagemModal4" tabindex="-1" role="dialog" aria-labelledby="imagemModalLabel"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="imagemModalLabel">Visualização de Imagem</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <img src="/Imagem/galeria/Nossos eventos/Activity (2).jpg" class="img-fluid" alt="">
+            <h5>Bem-Vindo ao Facebook a maior rede social do mundo criada por Mark Zuckerberg</h5>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="imagemModal5" tabindex="-1" role="dialog" aria-labelledby="imagemModalLabel"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="imagemModalLabel">Visualização de Imagem</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <img src="/Imagem/galeria/Nossos eventos/Africa-day.jpg" class="img-fluid" alt="">
+            <h5>Bem-Vindo ao Facebook a maior rede social do mundo criada por Mark Zuckerberg</h5>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="imagemModal6" tabindex="-1" role="dialog" aria-labelledby="imagemModalLabel"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="imagemModalLabel">Visualização de Imagem</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <img src="/Imagem/galeria/Nossos eventos/1699986922488.jpg" class="img-fluid" alt="">
+            <h5>Bem-Vindo ao Facebook a maior rede social do mundo criada por Mark Zuckerberg</h5>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="imagemModal7" tabindex="-1" role="dialog" aria-labelledby="imagemModalLabel"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="imagemModalLabel">Visualização de Imagem</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <img src="/Imagem/galeria/Nossos eventos/Palestra.jpg" class="img-fluid" alt="">
+            <h5>Bem-Vindo ao Facebook a maior rede social do mundo criada por Mark Zuckerberg</h5>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="imagemModal8" tabindex="-1" role="dialog" aria-labelledby="imagemModalLabel"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="imagemModalLabel">Visualização de Imagem</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <img src="/Imagem/galeria/Nossos eventos/1.png" class="img-fluid" alt="">
+            <h5>Bem-Vindo ao Facebook a maior rede social do mundo criada por Mark Zuckerberg</h5>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="imagemModal9" tabindex="-1" role="dialog" aria-labelledby="imagemModalLabel"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="imagemModalLabel">Visualização de Imagem</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <img src="/Imagem/facebook.png" class="img-fluid" alt="">
+            <h5>Bem-Vindo ao Facebook a maior rede social do mundo criada por Mark Zuckerberg</h5>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="imagemModal10" tabindex="-1" role="dialog" aria-labelledby="imagemModalLabel"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="imagemModalLabel">Visualização de Imagem</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <img src="/Imagem/facebook.png" class="img-fluid" alt="">
+            <h5>Bem-Vindo ao Facebook a maior rede social do mundo criada por Mark Zuckerberg</h5>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="imagemModal11" tabindex="-1" role="dialog" aria-labelledby="imagemModalLabel"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="imagemModalLabel">Visualização de Imagem</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <img src="/Imagem/facebook.png" class="img-fluid" alt="">
+            <h5>Bem-Vindo ao Facebook a maior rede social do mundo criada por Mark Zuckerberg</h5>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="imagemModal12" tabindex="-1" role="dialog" aria-labelledby="imagemModalLabel"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="imagemModalLabel">Visualização de Imagem</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <img src="/Imagem/facebook.png" class="img-fluid" alt="">
+            <h5>Bem-Vindo ao Facebook a maior rede social do mundo criada por Mark Zuckerberg</h5>
+        </div>
+    </div>
+</div>
+</div>
+
+    <!-- Rodapé -->
+    <hr>
+    <footer id="rodape">
+        <div class="container-fluid" style="background-color: rgb(109, 157, 235); ">
+            <div class="footer-area section-gap align-items-center">
+                <div class="row justify-content-around">
+                    <div class="col-lg-2 col-md-4 col-sm-4 mt-2">
+                        <div class="single-footer-widget">
+                            <h5 class="text-white footer-texto-principal"
+                                style="border-bottom: 3px solid white;">Sobre Nós</h5>
+                            Rua Santo Antonio, Km 12B, Viana... <br>
+                            (+244) 922657508 | 998128383 <br>
+                            <a href="mailto:imparcaciasrubras@gmail.com"
+                                style="color: rgb(255, 255, 255);">imparcaciasrubras@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 social-widget mt-2">
+                        <div class="single-footer-widget">
+                            <h5 class="text-white footer-texto-principal"
+                                style="border-bottom: 3px solid white;">Redes Sociais</h5>
+                            <a href="#" target="_blank"><i class="bi bi-facebook"></i> Facebook</a><br>
+                            <a href="#" target="_blank"><i class="bi bi-twitter"></i> Twitter</a><br>
+                            <a href="#" target="_blank"><i class="bi bi-instagram"></i> Instagram</a><br>
+                            <a href="#" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 mt-2">
+                        <div class="single-footer-widget">
+                            <h5 class="text-white footer-texto-principal"
+                                style="border-bottom: 3px solid white;">Links Rápidos</h5>
+                            <a href="/index.html">Home</a><br>
+                            <a href="/Actividades/html/noticia.html">Notícias</a><br>
+                            <a href="/Galeria/html/Galeria.html">Galeria</a><br>
+                            <a href="/Sobre-impar/html/sobre-impar.html">Sobre o IMPAR</a><br>
+                            <a href="/Admissão/html/Adimissao.html">Admissão</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
+                    <p class="footer-text m-0 col-lg-6 col-md-12">IMPAR © 2023. Desenvolvido por
+                        <a href="https://www.seu-site.com" target="_blank">Dário Pimentel 😁🫶👌👍</a>.</p>
+                    <div class="col-lg-6 col-md-12 footer-social">
+                        <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="bi bi-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts JavaScript (opcional) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEX/93QYA5Kf+1p3QiqmXa3ZqpwkCK3S13TfE"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
